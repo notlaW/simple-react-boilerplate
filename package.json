@@ -1,0 +1,26 @@
+{
+  "name": "simple-react-boilerplate",
+  "version": "1.0.0",
+  "description": "The purpose of this repo is to be able to quickly start a react project, wired up with minimal tooling that allows for consistent, tested code.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+    "format:check": "prettier --list-different \"src/**/*.{js,jsx,css,html,json}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**/*.{js, jsx}\""
+  },
+  "dependencies": {
+    "prettier": "^1.14.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "author": "Mychael Walton",
+  "license": "ISC"
+}
