@@ -1,7 +1,18 @@
 extends:
   - eslint:recommended
+  - plugin:react/recommended
+  - plugin:import/errors
+  - plugin:jsx-a11y/recommended
   - prettier
   - prettier/react
+plugins:
+  - flowtype
+  - react
+  - import
+  - jsx-a11y
+parser: babel-eslint
+rules:
+  react/props-types: 0
 parserOptions:
   ecmaVersion: 2018
   sourceType: module
@@ -11,3 +22,4 @@ env:
   es6: true
   browser: true
   node: true
+  jest: true

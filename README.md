@@ -30,6 +30,6 @@ $ npm run format
 $
 ```
 
-\*VSCODE: If using visual studio code, you can install the prettier plugin to enable formatting on save.
+\*\*VSCODE: If using visual studio code, you can install the prettier plugin to enable formatting on save.
 
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
